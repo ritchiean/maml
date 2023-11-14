@@ -528,7 +528,7 @@ class MTPotential(LammpsPotential):
         train_energies,
         train_forces,
         train_stresses,
-        num_cores=64
+        num_cores=64,
         unfitted_mtp="08g.mtp",
         max_dist=5,
         radial_basis_size=8,
